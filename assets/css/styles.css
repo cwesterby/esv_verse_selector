@@ -1,0 +1,292 @@
+/*
+Main color #44BFE8 - BLUE
+Accent colour #FE4449 - Red
+Light blue #9CE0F6;
+dark Grey #667982
+Light Grey #EFF4F8
+green #39F4CD
+*/
+
+
+/* Font style */
+@font-face {
+	font-family: "dancing";
+	src:url(../fonts/DancingScript-Regular.otf) format("opentype");
+}
+
+body {
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* ******************** Extra Small Devices, Phones ************************** */
+
+@media only screen and (min-width : 280px){
+
+
+/* ******************** LANDING PAGE  ************************** */
+
+.page-wrapper{}
+.navBar{
+	height: 70px;
+	padding:0px;
+}
+
+.navLogo{
+	padding: 0px;
+}
+.navLogoSmall{
+	letter-spacing: -14.5px;
+	color: #44BFE8;
+	margin-left:0px;
+}
+
+.navLogoSmall a {
+	text-decoration: none;
+}
+
+.navLogoSmall a; {
+	text-decoration: none;
+}
+
+.navLogoLarge{
+	display: none;
+	color: #44BFE8;
+	margin-left:0px;
+}
+.signinBox{
+	padding: 0px;
+}
+.signinBox ul {
+	height: 100%;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none; 
+	text-align: right;
+	font-family: 'Dancing Script',"dancing";
+	font-size: 1.3em;
+}
+
+.signinBox ul li{
+	float: right;
+	padding: 0px;
+	margin-top: 22px;
+	text-decoration: none;
+}
+
+.signinBox ul li a {
+	text-decoration: none;
+}
+
+.signinBox ul li a:hover {
+	color: #FE4449 ;
+}
+
+.mainBanner{
+	float: left;
+	background-color: #44BFE8;
+	border-radius: 10px;
+	height: 400px;
+}
+
+.heading {
+	margin-top: 20%;
+	font-family: 'Dancing Script',"dancing" ;
+	font-size: 14vmax;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 130.6px;
+	color: white;
+}
+
+.introCopy{
+	padding: 0px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.divideTxt {
+	padding: 0px;
+	font-family: 'Dancing Script',"dancing";
+	font-size: 1.8em;
+}
+
+.subtitle {
+  margin: 0 0 2em 0;
+}
+
+.fancy {
+  line-height: 0.3;
+  text-align: center;
+  color: #667982;
+}
+
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 6px solid #667982;
+  /*border-top: 1px solid black;*/
+  top: 0;
+  width: 110%;
+  border-radius: 55px;
+}
+
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.featureWrapper{
+	padding: 0px;
+	margin-bottom: 50px;
+}
+
+.featureTitle{
+	text-align: center;
+}
+
+.featureTitleNumber {
+	padding: 0px;
+}
+
+.featureTitleNumber h4{
+	font-size: 0.8em;
+	margin: 0px;
+}
+
+.featureTitleName {
+	padding: 0px;
+}
+
+.featureTitleName h4 {
+	font-family: 'Dancing Script',"dancing";
+	font-size: 3em;
+	margin: 0px 0px 10px 0px;
+}
+
+.featureImage{
+	height: 140px;
+	padding: 0px;
+	margin-bottom: 5px;
+	background-color: #44BFE8;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.featureImage img {
+	margin-top: 5%;
+	margin-right: 5%;
+	height: 80%;
+	float: right;
+}
+
+.featureCopy{
+	padding: 0px 5px 0px 5px;
+}
+
+.featureCopy p {
+	text-align: justify;
+}
+
+.featureBorder{
+	padding: 0px;
+	border-bottom: 30px;
+}
+
+
+/* *********** SIGN IN / UP  FORGET / RESET PAGES  ************* */
+
+.jumbo-adjust {
+	background-color: #9CE0F6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 3px 21px 75px -8px rgba(102,121,130,0.42);
+  -moz-box-shadow: 3px 21px 75px -8px rgba(102,121,130,0.42);
+	box-shadow: 3px 21px 75px -8px rgba(102,121,130,0.42);
+	border-radius: 0px;
+}
+
+.jumbo-adjust form {
+	margin-bottom: 10px;
+}
+
+.jumbo-adjust a {
+	color: white;
+	text-decoration: none;
+}
+
+.jumbo-adjust a:hover {
+	color: #FE4449 ;
+}
+
+
+
+
+/* ******************** BUTTON STYLING ************************** */
+.btn {
+	background-color: #FE4449;
+	border:none;
+	font-family: 'Dancing Script',"dancing" ;
+}
+
+.btn:hover {
+	background-color: #EFF4F8;
+}
+
+.border-right {
+	border-right: 1px solid white;
+}
+
+.border-left {
+	border-left: 1px solid white;
+}
+
+
+/* ******************** TEXT COLORING ************************** */
+.white {
+	color: white;
+}
+
+.grey-text {
+	color: #667982;
+}
+
+/* ***************** ERROR MESSAGE STYLE *********************** */
+.err_mess {
+	font-size: 0.7em;
+	font-style: italic;
+}
+
+/* THIS IS THE END OF THE EXTRA SMALL DEVICES ><> ><> ><> ><> ><> ><> ><> ><> */ 
+}
+
+
+
+/* ******************** Small Devices, Tablets **************************** */
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){}
+
+/* ******************** Medium Devices, Desktops ************************** */
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){}
+
+/* ******************** Large Devices, Wide Screens  ********************** */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){}
